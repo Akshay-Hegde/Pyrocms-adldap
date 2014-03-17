@@ -328,7 +328,7 @@ class Adldap {
     * @throws Exception - if unable to bind to Domain Controller
     * @return bool
     */
-    function __construct($options=array()){
+    function __construct($options = array()){
 		
 		//Load the adladap config file if no config was sent
 		if(count($options) == 0){

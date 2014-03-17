@@ -1,0 +1,107 @@
+.tabsblock {
+    margin: 30px 0;
+}
+
+    .tabsblock .tabs {
+        overflow: hidden;
+        float: left;
+        margin: 0;
+        padding: 0 !important;
+    }
+
+        .tabsblock .tabs li {
+            background: none !important;
+            float: left;
+            height: 26px;
+            padding: 8px 8px 0 8px !important;
+        }
+
+            .tabsblock .tabs li.active {
+                background: #f0f0f0 !important;
+                -moz-border-radius-topleft: 4px;
+                -moz-border-radius-topright: 4px;
+                -webkit-border-top-left-radius: 4px;
+                -webkit-border-top-right-radius: 4px;
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+            }
+
+            .tabsblock .tabs li a {
+                text-decoration: none;
+                border-bottom: 1px dashed #009f44;
+                color: #009f44 !important;
+            }
+
+            .tabsblock .tabs li.active a {
+                color: #4e2784 !important;
+                border: 0;
+            }
+
+    .tabsblock .info {
+        clear: both;
+        background: #f0f0f0;
+        padding: 20px 14px 20px 14px;
+        font-size: 13px;
+        color: #414141;
+        font-family: Arial;
+        line-height: 18px;
+        padding-bottom: 10px;
+    }
+
+        .tabsblock .info ul li {
+            background: url('data:image/gif;base64,R0lGODlhDAABAIAAAACgOgAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4zLWMwMTEgNjYuMTQ1NjYxLCAyMDEyLzAyLzA2LTE0OjU2OjI3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3NEQ2NkExODVEQUUxMUUzODdGN0Q3QzMzQUNBRjdGMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3NEQ2NkExOTVEQUUxMUUzODdGN0Q3QzMzQUNBRjdGMyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjc0RDY2QTE2NURBRTExRTM4N0Y3RDdDMzNBQ0FGN0YzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjc0RDY2QTE3NURBRTExRTM4N0Y3RDdDMzNBQ0FGN0YzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAwAAQAAAgOEj1YAOw==') no-repeat;
+            padding-left: 17px;
+            background-position: 0 8px;
+        }
+
+        .tabsblock .info p {
+            padding-left: 0 !important;
+        }
+
+        .tabsblock .info .tab-title {
+            display: none;
+        }
+
+        .tabsblock .info table td span {
+            font-size: 22px;
+        }
+
+            .tabsblock .info table td span.tip-n {
+                font-size: inherit;
+                font-size: 11px;
+            }
+
+    .tabsblock .print {
+        margin-left: 0;
+        font-size: 11px;
+    }
+
+    .tabsblock .cornered .t div, .tabsblock .cornered .b div {
+        background: url('data:image/gif;base64,R0lGODlhDAAMALMKAO3t7fHx8eXl5dLS0tzc3PPz89DQ0OLi4tnZ2fDw8AAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAoALAAAAAAMAAwAAAQ3MMlAhkFA6oOSUgVybMJnKsKYIOeJBEjRmglhzOcw4KZBeLgQjIdJHEqt1Cb2Wak0AIRhQAhoIgA7') left top no-repeat;
+    }
+
+        .tabsblock .cornered .b div.l {
+            background-position: 0 -6px;
+        }
+
+        .tabsblock .cornered .t div.r, .tabsblock .cornered .b div.r {
+            background-position: -6px 0;
+        }
+
+        .tabsblock .cornered .b div.r {
+            background-position: -6px -6px;
+        }
+
+    .tabsblock font[size="3"] {
+        font-size: 95%;
+        line-height: 120%;
+    }
+
+    .tabsblock #tab_cutoff td[width="25%"], .tabsblock #on_other td[width="25%"], .tabsblock #on_other td + td + td[width="20%"] {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .tabsblock div img {
+        width: 17px;
+    }

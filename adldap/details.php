@@ -15,7 +15,7 @@ class Module_Adldap extends Module {
 				'en' => 'You can to manage Active Directory accounts',
 				'ru' => 'Вы можете управлять учетными записями Active Directory',
 			),
-			'frontend' => false,
+			'frontend' => TRUE,
 			'backend' => TRUE,
 			'menu' => 'utilities',
 			'sections' => array(
